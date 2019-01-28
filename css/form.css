@@ -1,0 +1,14 @@
+header {
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    font-size: 18px;    
+}
+
+#callback {
+    text-align: center;
+}

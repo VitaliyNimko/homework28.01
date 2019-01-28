@@ -1,0 +1,94 @@
+header {
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+#mainphoto .numbers {
+    text-align: center;
+    font-size: 25px;
+    margin: 15px;
+}
+
+#mainphoto {
+    text-align: center;
+}
+
+#price table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#price td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+footer {
+    background-color: grey;
+}
+
+header a {
+    color: white;
+    font-size: 18px;
+}
+
+h2 {
+    background-color: grey;
+    color: white;
+}
+
+.aboutlist ul {
+    list-style-position: inside;
+    list-style-type: circle;
+}
+
+#why {
+    text-align: center;
+}
+
+#price {
+    text-align: center;    
+}
+
+#about {
+    text-align: center;
+}
+
+#contacts {
+    text-align: center;    
+}
+
+#write {
+    text-align: center;    
+}
+
+#topbutton {
+    text-align: right;
+}
+
+#topbutton a {
+    color: white;
+    font-size: 22px;
+}
+
+#footermenu {
+    display: inline-block;
+    padding-left: 200px;
+    padding-right: 200px;
+    vertical-align: top;    
+}
+
+#footerphone {
+    display: inline-block;
+    padding-left: 200px;
+    padding-right: 200px;
+    vertical-align: top;
+}
+
+#footeraddress {
+    display: inline-block;
+    padding-left: 200px;
+    padding-right: 200px;
+    vertical-align: top;    
+}
