@@ -30,7 +30,7 @@ header #menu .mainmenu li a {
 h1 {
     display: flex;
     padding: 5px;
-    margin: 0px auto;
+    margin: 40px auto;
     justify-content: center;
     color: white;
     text-transform: uppercase;
