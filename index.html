@@ -11,27 +11,29 @@
 <body>
     <header>
         <div id="logo">
-            <h1>Mobile<br>Service</h1>
-        </div>    
-        <nav id="mainmenu">
-            <a href="#why">Чому обирають нас?</a> |
-            <a href="#price">Ціни</a> |
-            <a href="#about">Про нас</a> |
-            <a href="#contacts">Контакти</a> |
-            <a href="#write">Написати нам</a>
-        </nav>
-        <hr>
-    </header>
-    <main>
-        <div id="mainphoto">
+            <img src="img/mainlogo.png" alt="Логотип">
+        </div>
+        <div id="menu">
+            <ul class="mainmenu">
+                <li><a href="#why">Чому обирають нас?</a></li>
+                <li><a href="#price">Ціни</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+                <li><a href="#write">Написати нам</a></li>
+            </ul>
+        </div>
+        <div class="mainphoto">
             <h1>Ремонт мобільних телефонів</h1>
                 <div class="numbers">
                    <a href="tel:(063)123-45-67">(063) 123-45-67</a> 
-                   <a href="tel:(067)765-43-21">(067) 765-43-21</a><br>
+                   <a href="tel:(067)765-43-21">(067) 765-43-21</a>
                 </div>
-            <img src="img/iphone.jpg" alt="Ремонт мобільних телефонів"><br>
-            <a href="form.html"><img src="img/regbutton.jpg" alt="Записатись на ремонт" width="300"></a>
+                <div>
+                    <button class="button">Записатись на ремонт</button>
+                </div>   
         </div>
+        </header>
+        <main>
         <div id="why">
             <h2>Чому обирають нас?</h2>
             <img src="img/aboutus.jpg" alt="Про нас">
@@ -47,7 +49,7 @@
         </div>
         <div id="price">
             <h2>Ціни на послуги</h2>
-            <table>
+            <table class="pricelist">
                 <tr>
                     <td>Послуга</td>
                     <td>Ціна</td>
@@ -123,7 +125,7 @@
         </div>
     </main>
     <footer>
-        <div id="footermenu">
+        <div class="footermenu">
             <h4>Меню:</h4>
             <ul>
                 <li><a href="#why">Чому обирають нас?</a></li>
@@ -133,21 +135,21 @@
                 <li><a href="#write">Написати нам</a></li>
             </ul>
         </div>
-        <div id="footerphone">
+        <div class="footerphone">
             <h4>Телефони:</h4>
             <ul>
                 <li><a href="tel:(063)123-45-67">(063) 123-45-67</a></li>
                 <li><a href="tel:(067)765-43-21">(067) 765-43-21</a></li>
             </ul>
         </div>
-        <div id="footeraddress">
+        <div class="footeraddress">
             <h4>Адреса:</h4>
             <ul>
                 <li>м. Львів, вул. Лазаренка 8</li>
             </ul>
-        </div><br><br>
-        <div id="topbutton">
-            <a href="#logo" title="Повернутись на початок сайту">&uarr; вгору &uarr;</a>
+        </div>
+        <div class="topbutton">
+            <a href="#logo" title="Повернутись на початок сайту">↑ вгору ↑</a>
         </div>
     </footer>
 </body>

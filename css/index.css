@@ -1,94 +1,148 @@
-header {
-    background-color: grey;
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+body {
+    margin: 0px;
+}
+
+header #logo {
+    background-color: #16B6A3;
+    text-align: center;
+    padding: 5px;
+}
+
+header .mainmenu {
+    background-color: #16B6A3;
+    display: block;
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+header #menu .mainmenu li a {
     color: white;
-    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
+    padding: 5px;
 }
 
-#mainphoto .numbers {
-    text-align: center;
-    font-size: 25px;
-    margin: 15px;
-}
-
-#mainphoto {
-    text-align: center;
-}
-
-#price table {
-    border-collapse: collapse;
-    margin: auto;
-}
-
-#price td {
-    border: 1px solid black;
-    padding: 10px;
-}
-
-footer {
-    background-color: grey;
-}
-
-header a {
+h1 {
+    display: flex;
+    padding: 5px;
+    margin: 0px auto;
+    justify-content: center;
     color: white;
-    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
 }
 
 h2 {
-    background-color: grey;
+    background-color: #16B6A3;
+    border-radius: 30px;
     color: white;
+    font-family: 'Comfortaa', cursive;
+    padding: 6px;
+    margin: 30px auto;
+    display: flex;
+    max-width: 350px;
+    justify-content: center;
+}
+
+header .mainphoto {
+    background-image: url(../img/iphone.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+    text-align: center;
+ }
+ 
+ main {
+     text-align: center;
+ }
+ 
+ .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+ }
+ 
+ header .mainphoto .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+main #price .pricelist {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #16B6A3;
+    display: flex;
+    justify-content: space-around;
+}
+
+table {
+    border: 1px solid black;
+    margin: auto;
+    width: 450px;
+}
+
+body main #price .pricelist td {
+    text-align: center;
 }
 
 .aboutlist ul {
-    list-style-position: inside;
-    list-style-type: circle;
+    list-style-type: inside;
 }
 
-#why {
+ @media (min-width: 700px) {
+
+header .mainmenu {
+    background-color: #16B6A3;
     text-align: center;
+    display: flex;
+    margin: 0px;
+    justify-content: space-around;
 }
 
-#price {
-    text-align: center;    
-}
+header #menu .mainmenu li {
+     color: white;
+     font-family: 'Comfortaa', cursive;
+     text-decoration: none;
+     text-transform: uppercase;
+     padding: 5px;
+     margin: 0px;
+ }
+ 
+ header #menu .mainmenu li a:hover {
+     font: bold;
+     color: black;
+ }
+ 
+ 
 
-#about {
-    text-align: center;
-}
-
-#contacts {
-    text-align: center;    
-}
-
-#write {
-    text-align: center;    
-}
-
-#topbutton {
-    text-align: right;
-}
-
-#topbutton a {
-    color: white;
-    font-size: 22px;
-}
-
-#footermenu {
-    display: inline-block;
-    padding-left: 200px;
-    padding-right: 200px;
-    vertical-align: top;    
-}
-
-#footerphone {
-    display: inline-block;
-    padding-left: 200px;
-    padding-right: 200px;
-    vertical-align: top;
-}
-
-#footeraddress {
-    display: inline-block;
-    padding-left: 200px;
-    padding-right: 200px;
-    vertical-align: top;    
-}
+ }
