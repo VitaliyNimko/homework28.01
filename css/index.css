@@ -87,6 +87,7 @@ header .mainphoto {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 25px auto;
 }
 
 .button:hover {
